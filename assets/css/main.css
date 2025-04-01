@@ -424,8 +424,9 @@ input, select, textarea {
 				}
 
 		.row.gtr-50 {
-			margin-top: -25px;
-			margin-left: -25px;
+			/* margin-top: -25px;
+			margin-left: -25px; */
+			align-items: center;
 		}
 
 			.row.gtr-50 > * {
@@ -3344,4 +3345,10 @@ input, select, textarea {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
+	  }
+
+	  .responsive-scale {
+		width: 80%;         /* scale down for desktop */
+		max-width: 400px;   /* limit max size */
+		height: auto;       /* preserve aspect ratio */
 	  }
