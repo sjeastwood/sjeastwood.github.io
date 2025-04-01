@@ -3348,7 +3348,7 @@ input, select, textarea {
 	  }
 
 	  .responsive-scale {
-		width: 80%;         /* scale down for desktop */
-		max-width: 400px;   /* limit max size */
+		width: 90%;         /* scale down for desktop */
+		max-width: 500px;   /* limit max size */
 		height: auto;       /* preserve aspect ratio */
 	  }
