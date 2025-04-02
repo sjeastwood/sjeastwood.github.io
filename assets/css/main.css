@@ -3352,3 +3352,13 @@ input, select, textarea {
 		max-width: 500px;   /* limit max size */
 		height: auto;       /* preserve aspect ratio */
 	  }
+
+	  .icon.featured {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 255px; /* adjust as needed */
+		background: none;/*#f0f0f0;*/
+		border-radius: 0px;
+		color: #034f81;
+	  }
