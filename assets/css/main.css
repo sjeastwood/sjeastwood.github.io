@@ -1879,6 +1879,9 @@ input, select, textarea {
 			.image.featured img {
 				display: block;
 				width: 100%;
+				height: auto;         
+				max-width: 1200px;   
+    				margin: 0 auto;
 			}
 
 /* Icon */
