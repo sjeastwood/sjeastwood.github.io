@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	background-color: #ffffff;
 }
 
 ol, ul {
@@ -1853,7 +1854,7 @@ input, select, textarea {
 	}
 
 		.image:before {
-			background: url("images/overlay.png");
+			background: none;/*#ffffff; /*url("images/overlay.png");*/
 			content: '';
 			height: 100%;
 			left: 0;
@@ -1874,6 +1875,7 @@ input, select, textarea {
 		.image.featured {
 			display: block;
 			margin: 0 0 2em 0;
+			background-color: #ffffff;
 		}
 
 			.image.featured img {
@@ -1881,7 +1883,7 @@ input, select, textarea {
 				width: 100%;
 				height: auto;         
 				max-width: 1200px;   
-    				margin: 0 auto;
+    			margin: 0 auto;
 			}
 
 /* Icon */
